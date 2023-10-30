@@ -1,1 +1,12 @@
+<script src="JSX.js"></script>
+<p id="1">Click me</p><br>
+<p id="2">Hover over me</p><br>
+<script>
+onclick($("1"),function(){
+  pop($("1"))
+})
 
+onmouseenter($("2"),function(){
+  $("2").innerHTML = "Thank you"
+})
+</script>
